@@ -3,6 +3,12 @@ Chao Wei, Dongmei Zhou, Shengbing Chen, Xingyang Li, Hongyu Yao, Hao Luo
 Chengdu University of Technology, School of Mechanical and Electrical Engineering, Chengdu, China
 # Introduction
 This is the official repository for DIDAF-Depth: A Dual-Path Interaction and Dual-Attention Fusion Network with Transformer-CNN Architecture for Nighttime Depth Estimation. Since the paper is being submitted, we will continue to publish our training code and training results.
+<p align="center">
+  <img src="assets/Figure_3.jpg"
+       alt="Overall architecture of DIDAF-Depth: TC-VIF encoder with dual-path (CNN & Transformer) and VIF modules; DCAFM for dual-attention fusion at four scales; EDCMNet decoder with PPM and EUCB; multi-scale depth heads; self-supervised training with PoseNet via photometric reconstruction."
+       width="95%">
+</p>
+<p align="center"><em>Figure 3. Overall pipeline of DIDAF-Depth.</em></p>
 # Dependency
 - torch>=2.0.0
 - mmcv-full==1.7.2
@@ -49,7 +55,7 @@ To test on RobotCar-Night or nuScenes-Night, you can run <kbd>test_(nuscenes/rob
 +---------------------------------------------------------------------------+
 |  abs_rel  |  sq_rel  |   rmse  |  rmse_log  |    a1   |    a2   |    a3   |
 +---------------------------------------------------------------------------+
-|   0.119   |  0.895   |  4.119  |   0.177    |  0.875  |  0.954  |  0.983  |
+|   0.116   |  0.850   |  3.962  |   0.174    |  0.876  |  0.958  |  0.984  |
 +---------------------------------------------------------------------------+
 ```
 ```
@@ -59,7 +65,7 @@ To test on RobotCar-Night or nuScenes-Night, you can run <kbd>test_(nuscenes/rob
 +---------------------------------------------------------------------------+
 |  abs_rel  |  sq_rel  |   rmse  |  rmse_log  |    a1   |    a2   |    a3   |
 +---------------------------------------------------------------------------+
-|  0.281    |  3.576   |  9.342  |   0.384    |  0.609  |  0.809  |  0.906  |
+|  0.277    |  3.140   |  8.904  |   0.368    |  0.589  |  0.818  |  0.913  |
 +---------------------------------------------------------------------------+
 ```
 # Acknowledgement

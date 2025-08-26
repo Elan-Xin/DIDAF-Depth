@@ -9,7 +9,7 @@ This is the official repository for DIDAF-Depth: A Dual-Path Interaction and Dua
        alt="Overall architecture of DIDAF-Depth."
        width="95%">
 </p>
-<p align="center"><em>Figure 3. Overall pipeline of DIDAF-Depth.</em></p>
+<p align="center"><em>Overall pipeline of DIDAF-Depth.</em></p>
 
 # Dependency
 - torch>=2.0.0

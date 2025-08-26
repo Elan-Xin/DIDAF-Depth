@@ -1,5 +1,5 @@
 # DIDAF-Depth: A Dual-Path Interaction and Dual-Attention Fusion Network with Transformer-CNN Architecture for Nighttime Depth Estimation
-Chao Wei, Dongmei Zhou, Shengbing Chen, Xingyang Li, Hongyu Yao, Hao Luo  
+Chao Wei, Dongmei Zhou, Shengbing Chen, Xingyang Li, Hongyu Yao, Bingmeng Zhu   
 Chengdu University of Technology, School of Mechanical and Electrical Engineering, Chengdu, China
 # Introduction
 This is the official repository for DIDAF-Depth: A Dual-Path Interaction and Dual-Attention Fusion Network with Transformer-CNN Architecture for Nighttime Depth Estimation. As the paper is currently under submission, we will continue to release our core code and training models. 

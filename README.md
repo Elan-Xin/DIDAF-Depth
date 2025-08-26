@@ -50,8 +50,9 @@ __Note:__ You also need to configure the dataset path in <kbd>datasets/common.py
 Our model is trained using Distributed Data Parallel supported by [Pytorch-Lightning](https://github.com/Lightning-AI/pytorch-lightning). You can configure the training information in <kbd>train.py</kbd>, such as the training set, the number of GPUs, and the random seeds.
 # Test
 To test on RobotCar-Night or nuScenes-Night, you can run <kbd>test_(nuscenes/robotcar)_all.py</kbd>.
-1.The best test results of our method in RobotCar-Night(maximum depth of 60m)
+
 ```
+1.The best test results of our method in RobotCar-Night(maximum depth of 60m)
 +---------------------------------------------------------------------------+
 |                             Evaluation Result                             |
 +---------------------------------------------------------------------------+
@@ -61,7 +62,7 @@ To test on RobotCar-Night or nuScenes-Night, you can run <kbd>test_(nuscenes/rob
 +---------------------------------------------------------------------------+
 ```
 ```
-1.The best test results of our method in nuScenes-Night(maximum depth of 60m)
+2.The best test results of our method in nuScenes-Night(maximum depth of 60m)
 +---------------------------------------------------------------------------+
 |                             Evaluation Result                             |
 +---------------------------------------------------------------------------+

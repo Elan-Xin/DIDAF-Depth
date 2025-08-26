@@ -3,12 +3,14 @@ Chao Wei, Dongmei Zhou, Shengbing Chen, Xingyang Li, Hongyu Yao, Hao Luo
 Chengdu University of Technology, School of Mechanical and Electrical Engineering, Chengdu, China
 # Introduction
 This is the official repository for DIDAF-Depth: A Dual-Path Interaction and Dual-Attention Fusion Network with Transformer-CNN Architecture for Nighttime Depth Estimation. Since the paper is being submitted, we will continue to publish our training code and training results.
+
 <p align="center">
   <img src="assets/Figure_3.jpg"
-       alt="Overall architecture of DIDAF-Depth: TC-VIF encoder with dual-path (CNN & Transformer) and VIF modules; DCAFM for dual-attention fusion at four scales; EDCMNet decoder with PPM and EUCB; multi-scale depth heads; self-supervised training with PoseNet via photometric reconstruction."
+       alt="Overall architecture of DIDAF-Depth."
        width="95%">
 </p>
 <p align="center"><em>Figure 3. Overall pipeline of DIDAF-Depth.</em></p>
+
 # Dependency
 - torch>=2.0.0
 - mmcv-full==1.7.2
